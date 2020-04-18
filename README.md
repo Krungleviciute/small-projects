@@ -1,4 +1,4 @@
-The repository is created for creating web-template together with kodinu.lt community!
+The repository is created for building webpage-template together with kodinu.lt community!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
