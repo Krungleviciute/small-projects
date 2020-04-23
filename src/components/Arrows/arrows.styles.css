@@ -1,0 +1,19 @@
+.arrows-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40px;
+  position: absolute;
+  align-self: flex-end;
+  justify-self: center;
+  padding-top: 10px;
+}
+
+.arrows-container img {
+  height: "10px";
+  width: "6px";
+}
+
+.arrows-container img.arrow-back {
+  opacity: 0.3;
+}

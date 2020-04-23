@@ -1,0 +1,129 @@
+.hero-section-container {
+  display: flex;
+  height: 600px;
+  max-height: auto;
+}
+
+.hero-section-container .hero-picture,
+.hero-section-container .hero-more-news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section-container .hero-picture {
+  max-width: 1220px;
+  background-image: url("../../assets/images/hero-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section-container .hero-more-news {
+  max-width: 580px;
+  background-color: #ffffff;
+}
+
+.hero-section-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 247px;
+  max-width: 660px;
+  width: 100%;
+}
+
+.hero-section-container p.btn.btn-danger {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  height: 40px;
+  width: 134px;
+  text-transform: uppercase;
+  display: block;
+  background-color: #fa6980;
+  border: none;
+  padding: 13px 0;
+  margin-bottom: 0;
+}
+
+.more-news-section,
+.more-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more-articles {
+  height: 299px;
+  margin-top: 20px;
+}
+
+.more-news-section {
+  max-width: 380px;
+  width: 100%;
+}
+
+.more-news-section .section-title {
+  color: #fa6980;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* Desktop*/
+
+@media screen and (max-width: 1440px) {
+  .hero-section-container .hero-picture {
+    max-width: 840px;
+  }
+
+  .hero-section-container .hero-more-news {
+    max-width: 600px;
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section-container {
+    flex-direction: column;
+  }
+  .hero-section-container .hero-picture,
+  .hero-section-container .hero-more-news {
+    max-width: 768px;
+  }
+
+  .hero-section-container {
+    height: 743px;
+  }
+  .hero-section-container .hero-picture {
+    height: 400px;
+  }
+  .hero-section-container .hero-more-news {
+    height: 343px;
+  }
+
+  .hero-section-article {
+    height: 239px;
+    max-width: 608px;
+  }
+
+  .more-articles {
+    flex-direction: row;
+
+    height: 123px;
+  }
+
+  .more-news-section {
+    max-width: 608px;
+  }
+
+  .more-articles div {
+    max-width: 284px;
+  }
+}
