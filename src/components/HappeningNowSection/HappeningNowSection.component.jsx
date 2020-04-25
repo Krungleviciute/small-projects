@@ -21,10 +21,7 @@ const HappeningNowSection = () => {
         </div>
         <div className="happening-now-layout">
           <div className="column-1">
-            <BackgroundImage
-              url={sanFrancisco}
-              imageStyle={{ height: "430px", maxWidth: "760px" }}
-            >
+            <BackgroundImage url={sanFrancisco}>
               <div className="article-container">
                 <h3>City</h3>
                 <Article
@@ -34,10 +31,7 @@ const HappeningNowSection = () => {
                 />
               </div>
             </BackgroundImage>
-            <BackgroundImage
-              url={forestPath}
-              imageStyle={{ height: "430px", maxWidth: "760px" }}
-            >
+            <BackgroundImage url={forestPath}>
               <div className="article-container">
                 <h3>travel</h3>
                 <Article

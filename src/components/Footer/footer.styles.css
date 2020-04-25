@@ -109,6 +109,8 @@ footer .footer-container {
   align-items: flex-start;
 }
 
+/*Tablet*/
+
 @media screen and (max-width: 768px) {
   footer {
     max-width: 768px;
@@ -135,5 +137,11 @@ footer .footer-container {
 
   .soacial-section {
     align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer#footer {
+    display: none;
   }
 }

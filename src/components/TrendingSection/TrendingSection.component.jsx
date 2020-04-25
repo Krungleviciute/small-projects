@@ -18,9 +18,6 @@ const TrendingSection = () => {
         <div className="cards-section">
           <Card
             source={require("../../assets/images/trending-image-1.png")}
-            cardStyle={{
-              height: "350px",
-            }}
             cardBodyStyle={{ maxWidth: "280px" }}
           >
             <Article
@@ -33,7 +30,6 @@ const TrendingSection = () => {
           </Card>
           <Card
             source={require("../../assets/images/trending-image-2.png")}
-            cardStyle={{ height: "350px" }}
             cardBodyStyle={{ maxWidth: "280px" }}
           >
             <Article
@@ -46,7 +42,6 @@ const TrendingSection = () => {
           </Card>
           <Card
             source={require("../../assets/images/trending-image-3.png")}
-            cardStyle={{ height: "350px" }}
             cardBodyStyle={{ maxWidth: "280px" }}
           >
             <Article

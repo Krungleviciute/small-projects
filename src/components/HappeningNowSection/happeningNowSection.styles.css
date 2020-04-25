@@ -45,13 +45,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 680px;
   width: 100%;
   align-items: center;
   height: 430px;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 
 .article-container h3 {
@@ -63,6 +61,8 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/*Tablet*/
+
 @media screen and (max-width: 768px) {
   .happening-now-section {
     max-width: 608px;
@@ -72,7 +72,7 @@
   }
 
   .article-container {
-    max-width: 528px;
+    padding-bottom: 66px;
   }
 
   .happening-now-layout .column-2 {
@@ -95,5 +95,63 @@
 
   .column-2-item img.column-2-item-image {
     width: 100%;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 375px) {
+  .happening-now-container {
+    padding-bottom: 0;
+  }
+  .happening-now-section {
+    max-width: 327px;
+    height: 1586px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .article-container {
+    padding: 32px 24px;
+    height: 300px;
+  }
+
+  .happening-now-layout .column-1 {
+    height: 640px;
+  }
+  .article-container .article-section .article-paragraph {
+    height: 70px;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin: 10px auto;
+  }
+  .article-container .article-section .article-heading {
+    height: 56px;
+  }
+
+  .happening-now-layout .column-2 {
+    flex-direction: column;
+    height: 806px;
+    border-top: 2px solid #ebeded;
+    margin-top: 40px;
+    border-radius: 2px;
+  }
+
+  .happening-now-layout .column-2 div.column-2-item:last-child {
+    display: block;
+  }
+
+  .column-2-item {
+    max-width: 327px;
+    height: 242px;
+  }
+
+  .column-2-item img.column-2-item-image {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .column-2-item-image .article-section .article-paragraph {
+    padding-bottom: 0;
   }
 }

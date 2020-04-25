@@ -34,6 +34,7 @@
   align-items: center;
 }
 
+/*Tablet*/
 @media screen and (max-width: 768px) {
   .trending-section {
     max-width: 608px;
@@ -45,5 +46,23 @@
   .cards-section div.card {
     max-width: 284px;
     height: 350px;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 375px) {
+  .trending-section {
+    max-width: 327px;
+    height: 716px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .cards-section {
+    flex-direction: column;
+    height: 656px;
+  }
+  .cards-section div.card {
+    max-width: 327px;
+    height: 308px;
   }
 }

@@ -89,6 +89,8 @@
   }
 }
 
+/*Tablet*/
+
 @media screen and (max-width: 768px) {
   .hero-section-container {
     flex-direction: column;
@@ -125,5 +127,53 @@
 
   .more-articles div {
     max-width: 284px;
+  }
+}
+
+/*Phone*/
+
+@media screen and (max-width: 375px) {
+  .hero-section-container .hero-picture {
+    max-width: 375px;
+    height: 388px;
+  }
+
+  .hero-section-article {
+    max-width: 327px;
+    height: 308px;
+    padding: 24px;
+  }
+
+  .hero-section-container p.btn.btn-danger {
+    width: 151px;
+  }
+
+  .article-paragraph {
+    padding-bottom: 20px;
+  }
+  .hero-section-container .hero-more-news {
+    max-width: 375px;
+    height: 478px;
+  }
+
+  .more-news-section {
+    max-width: 327px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .more-news-section .article-paragraph {
+    height: 44px;
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+
+  .more-articles {
+    flex-direction: column;
+    height: 298px;
+  }
+
+  .hero-section-container {
+    height: 866px;
   }
 }

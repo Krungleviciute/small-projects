@@ -12,6 +12,9 @@ header.header {
 header.header ul {
   display: flex;
 }
+.header-mobile {
+  display: none;
+}
 .header h5,
 a {
   text-transform: uppercase;
@@ -50,6 +53,45 @@ a {
 .header ul li img {
   padding-left: 22px;
 }
+/*Mobile*/
+@media screen and (max-width: 375px) {
+  header.header {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 
-@media screen and (max-width: 1440px) {
+  .header-mobile .phone-top-bar,
+  .header-mobile .header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .header-mobile h5 {
+    color: #a6adb4;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .header-container {
+    height: 88px;
+  }
+
+  div.status-bar img {
+    padding-left: 5px;
+  }
+
+  h5.phone-time {
+    color: #343638;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+  }
 }

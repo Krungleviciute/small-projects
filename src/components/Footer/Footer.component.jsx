@@ -3,7 +3,7 @@ import "./footer.styles.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <div className="footer-container">
         <div className="navigation-section">
           <h3>Logo</h3>

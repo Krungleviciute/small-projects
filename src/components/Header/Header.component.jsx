@@ -29,6 +29,34 @@ const Header = () => {
           </ul>
         </nav>
       </header>
+      <header className="header-mobile">
+        <div className="phone-top-bar">
+          <h5 className="phone-time">9:41</h5>
+          <div className="status-bar">
+            <img
+              src={require("../../assets/images/Cellular Connection.png")}
+              alt="Cellular-Connection"
+            />
+            <img src={require("../../assets/images/Shape.png")} alt="Shape" />
+
+            <img
+              src={require("../../assets/images/Battery.png")}
+              alt="Battery"
+            />
+          </div>
+        </div>
+        <div className="header-menu">
+          <img
+            src={require("../../assets/images/menu icon.png")}
+            alt="menu-icon"
+          />
+          <h5>Logo</h5>
+          <img
+            src={require("../../assets/images/avatar.png")}
+            alt="profile-picture"
+          />
+        </div>
+      </header>
     </div>
   );
 };

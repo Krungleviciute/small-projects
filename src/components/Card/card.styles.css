@@ -4,7 +4,7 @@ div.card {
   justify-content: center;
   align-items: center;
   border: none;
-
+  height: 350px;
   max-width: 360px;
 }
 
@@ -23,6 +23,8 @@ div.card {
   height: 50%;
 }
 
+/*Tablet*/
+
 @media screen and (max-width: 768px) {
   .card-image img {
     object-fit: cover;
@@ -32,5 +34,12 @@ div.card {
 
   div.card {
     max-width: 284px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .card-image img {
+    height: 154px;
   }
 }
