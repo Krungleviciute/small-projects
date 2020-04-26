@@ -53,6 +53,17 @@ a {
 .header ul li img {
   padding-left: 22px;
 }
+
+@media screen and (max-width: 455px) {
+  .header ul li a {
+    padding: 6px;
+    font-size: 10px;
+  }
+  .header ul li img {
+    padding-left: 8px;
+  }
+}
+
 /*Mobile*/
 @media screen and (max-width: 375px) {
   header.header {
