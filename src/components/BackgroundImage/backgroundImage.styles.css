@@ -1,0 +1,15 @@
+.background-image-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px;
+  max-width: 760px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 375px) {
+  div.background-image-card {
+    height: 300px;
+    border-radius: 6px;
+  }
+}

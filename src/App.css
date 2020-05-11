@@ -1,38 +1,31 @@
+/* Large Desktop */
 .App {
   text-align: center;
+  max-width: 1800px;
+  margin: 0 auto;
+  background-color: #f6f8f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Desktop*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1440px) {
+  .App {
+    max-width: 1440px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Tablet*/
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .App {
+    max-width: 768px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Phone*/
+
+@media screen and (max-width: 375px) {
+  .App {
+    max-width: 375px;
   }
 }

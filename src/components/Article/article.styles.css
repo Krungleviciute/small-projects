@@ -1,0 +1,38 @@
+.article-section {
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: start;
+}
+
+.article-section p.article-heading {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+  line-height: 34px;
+}
+
+.article-section p.article-paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.timing-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timing-line img {
+  height: 16px;
+  width: 16px;
+}
+
+.timing-line p {
+  color: #a6adb4;
+  margin-bottom: 0;
+  padding-left: 10px;
+  line-height: 26px;
+  font-size: 13px;
+}
